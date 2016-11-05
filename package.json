@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start app.js",
+    "mongod": "mongod --config /Users/mima6ge1/Documents/Excalibur/projects/nodeback/mongodb.conf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,0 +1,281 @@
+{
+  "code":200,
+  "data":{
+    "list":[
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      },
+      {
+        "messageId": 1,
+        "createTime":"2016-10-27 16:55:07",
+        "desc":"",
+        "detail":{
+          "isLuckier":1,
+          "joinedNum":"10",
+          "luckyAvatar":"http://wx.qlogo.cn/mmopen/yJxFUfAwSPahJsLBoZe26KWziaRQ8yyHQynRIcu1AuvEicGvibgsZzdWp2ef1FsCn2DcCyTBePazOSm31JNcA1nicptPbRQVrvIu/0",
+          "luckyName":"对方正在输入...",
+          "luckyNum":"10000009",
+          "userId":"1473147463101000012134",
+          "zcNo":"20229010"
+        },
+        "img":"http://cai1.static.wesai.com/upload/0/f29/56216/0f29b562169c38eb7e0709854dbe1d4f.png",
+        "isRead":"1",
+        "title":"测试商品-iphone7",
+        "type":1
+      }
+    ],
+    "page":1,
+    "pageSize":10,
+    "pageTotal":1
+  },
+  "message":""
+}

@@ -45,8 +45,6 @@ app.use(morgan('combined', {
 
 app.use(cors());
 
-
-
 app.use('/', router);
 
 socket(io);
