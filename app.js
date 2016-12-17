@@ -10,17 +10,21 @@ var cors                = require('cors');
 var app                 = express();
 var http                = require('http').Server(app);
 var io                  = require('socket.io')(http);
-var session             = require('express-session');
-var MongoStore          = require('connect-mongo')(session);
 
 var router              = require('./routes/index');
 var socket              = require('./socket/index');
-var connection          = require('./data/database');
+var config              = require('./common/ip')
 
 app.use(favicon(__dirname + '/public/use.ico'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
+
+ 数据库
+var session             = require('express-session');
+var MongoStore          = require('connect-mongo')(session);
+var connection          = require('./data/database');
+
 app.use(session({
     secret: "excaliburTest",
     store: new MongoStore({url: 'mongodb://127.0.0.1:27017/test'}),
@@ -49,8 +53,6 @@ app.use('/', router);
 
 socket(io);
 
-var server = http.listen(3100, function () {
-    var host = server.address().address;
-    var port = server.address().port;
-    console.log('Example app listening at http://%s:%s', host, port);
+var server = http.listen(config.port, function () {
+    console.log('Example app listening at http://%s:%s', config.ip, config.port);
 });

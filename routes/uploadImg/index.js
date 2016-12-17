@@ -3,6 +3,8 @@ var router = express.Router();
 var multer  = require('multer')
 var path = require('path');
 
+var config = require('../../common/ip');
+
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, path.join(__dirname +  '/../../uploads'))
@@ -13,7 +15,7 @@ var storage = multer.diskStorage({
     }
 })
 
-var upload = multer({ storage: storage })
+var upload = multer({ storage: storage });
 
 router.post('/upload', upload.single('picture'), function(req, res){
     "use strict";
@@ -23,7 +25,7 @@ router.post('/upload', upload.single('picture'), function(req, res){
             msg: 'ok'
         },
         data: {
-            url: 'http://192.168.1.223:3100/' + path.join( req.file.fieldname + '-' + req.filetime + '.png')
+            url: 'http://' + config.ip + ':' + config.port + '/' + path.join( req.file.fieldname + '-' + req.filetime + '.png')
         }
     });
 });
