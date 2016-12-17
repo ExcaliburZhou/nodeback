@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
- 数据库
+// 数据库设置
 var session             = require('express-session');
 var MongoStore          = require('connect-mongo')(session);
 var connection          = require('./data/database');
