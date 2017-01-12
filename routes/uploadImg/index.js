@@ -3,7 +3,7 @@ var router = express.Router();
 var multer  = require('multer')
 var path = require('path');
 
-var config = require('../../common/ip');
+var config = require('../../common/config');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {

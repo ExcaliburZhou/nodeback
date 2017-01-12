@@ -3,8 +3,15 @@ var router = express.Router();
 var request = require('./request');
 var model = require('./../data/model');
 
+var person = require(".../");
 router.get('/wlgq', function(req, res, next){
     "use strict";
+
+    var user = req.query.username;
+    person.find({user: user}, function(){
+        res.send('')
+    })
+
     request(req, res, next);
 
 }, function(req, res){

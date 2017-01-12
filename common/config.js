@@ -3,9 +3,9 @@
  */
 var os = require('os');
 var IPv4;
-
-for(var i=0; i < os.networkInterfaces().en0.length; i++){
-    var env = os.networkInterfaces().en0[i];
+var envs = os.networkInterfaces().en0;
+for(var i = 0; i < envs.length; i++){
+    var env = envs[i];
     if(env.family == 'IPv4'){
         IPv4 = env.address;
         break;

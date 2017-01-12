@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var login = require('./login');
+//var login = require('./login');
 var pages = require('./static-page');
 var uploader = require('./uploadImg/index');
 
