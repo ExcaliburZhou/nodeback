@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var DB_URL = 'mongodb://localhost/test';
+var DB_URL = 'mongodb://localhost/excalibur';
 
 mongoose.connect(DB_URL);
 /**
@@ -23,49 +23,4 @@ mongoose.connection.on('disconnected', function () {
     console.log('Mongoose connection disconnected');
 });
 
-
-var Schema = mongoose.Schema;
-
-var user = new Schema({
-    sex: {
-        type: String
-    },
-    age: {
-        type: Number
-    },
-    color: {
-        type: String
-    }
-});
-
-var person = mongoose.model('sjj', user);
-
-module.exports = person;
-
-
-person.find({}, function(e, per){
-    if(per.length > 0){
-        person.find({}, function(){
-
-        })
-    }else {
-        res.send('账号错误')
-    }
-
-
-});
-
-person.create({
-    sex: "33",
-    age: 18
-}, function(e){
-    console.log(e);
-})
-
-//var one = new person({
-//    sex: "bbb",
-//    age: 18,
-//    color: "ddd"
-//});
-//
-//one.save();
+module.exports = mongoose;

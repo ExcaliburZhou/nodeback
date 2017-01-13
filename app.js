@@ -26,7 +26,7 @@ var MongoStore          = require('connect-mongo')(session);
 
 app.use(session({
     secret: "excaliburTest",
-    store: new MongoStore({url: 'mongodb://localhost/test'}),
+    store: new MongoStore({url: 'mongodb://localhost/excalibur'}),
     resave: false,
     saveUninitialized: false,
     cookie: {path: '/', httpOnly: true, secure: false, maxAge: 1000 * 60 * 10}

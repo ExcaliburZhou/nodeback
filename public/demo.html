@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="jquery.min.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            url: "http://localhost:3100/users/login",
+            type: 'post',
+            data: {
+                username: "sjj",
+                password: "1234"
+            },
+            success: function(data){
+                console.log(data)
+            },
+            error: function(){
+
+            }
+        })
+    })
+</script>
+</body>
+</html>

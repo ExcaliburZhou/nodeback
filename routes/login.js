@@ -4,6 +4,7 @@ var request = require('./request');
 var model = require('./../data/model');
 
 var person = require(".../");
+
 router.get('/wlgq', function(req, res, next){
     "use strict";
 
