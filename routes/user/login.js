@@ -9,9 +9,9 @@ var  router = express.Router();
 
 var users = require('./users');
 
-router.post('/login', (req, res)=>{
-    var username = req.body.username;
-    var password = req.body.password;
+router.get('/login', (req, res)=>{
+    var username = req.query.username;
+    var password = req.query.password;
     if(username === ''){
         res.send({
             code: 1,
@@ -29,8 +29,10 @@ router.post('/login', (req, res)=>{
         username: username,
         password: password
     }, function(e, user){
+
         if(!e){
             if(user.length > 0){
+                req.session.name = username;
                 res.send({
                     code: 200,
                     message: "登录成功"
@@ -51,6 +53,27 @@ router.post('/login', (req, res)=>{
     })
 
 });
+
+
+router.get('/isLogin', (req, res)=> {
+
+    const name = req.session.name;
+    if(name){
+        res.send({
+            code: 200,
+            msg: "已登录",
+            data: {
+                username: name
+            }
+        })
+    }else {
+        res.send({
+            code: 1,
+            msg: "未登录",
+            data: {}
+        })
+    }
+})
 
 
 module.exports = router;

@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-// 数据库设置
+// 数据库session缓存设置
 var session             = require('express-session');
 var MongoStore          = require('connect-mongo')(session);
 
@@ -30,7 +30,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {path: '/', httpOnly: true, secure: false, maxAge: 1000 * 60 * 10}
-}))
+}));
 // 设置静态资源目录
 app.use(express.static('public'));
 app.use(express.static('uploads'));
