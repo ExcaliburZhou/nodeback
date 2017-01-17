@@ -12,6 +12,7 @@ var users = require('./users');
 router.get('/login', (req, res)=>{
     var username = req.query.username;
     var password = req.query.password;
+    var maxAge     = +req.query.maxAge;
     if(username === ''){
         res.send({
             code: 1,
@@ -33,6 +34,7 @@ router.get('/login', (req, res)=>{
         if(!e){
             if(user.length > 0){
                 req.session.name = username;
+                if(maxAge) req.session.cookie.maxAge = maxAge;
                 res.send({
                     code: 200,
                     message: "登录成功"
