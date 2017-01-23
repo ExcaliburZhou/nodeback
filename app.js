@@ -34,6 +34,7 @@ app.use(session({
 // 设置静态资源目录
 app.use(express.static('public'));
 app.use(express.static('uploads'));
+app.use(express.static('dist'));
 
 // 请求日志输出
 var accessLogStream = FileStreamRotator.getStream({
